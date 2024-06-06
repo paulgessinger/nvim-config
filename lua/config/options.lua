@@ -4,3 +4,6 @@
 
 vim.opt.wrap = true
 vim.wo.relativenumber = false
+vim.opt.scrolloff = 0
+
+vim.opt.background = "light"

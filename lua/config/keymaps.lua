@@ -8,3 +8,6 @@ vim.keymap.set("n", ";", builtin.buffers, {})
 
 vim.keymap.set("n", "<leader>qa", vim.lsp.buf.code_action)
 vim.keymap.set("n", "gl", vim.diagnostic.open_float, {})
+
+vim.keymap.del("n", "<S-h>")
+vim.keymap.del("n", "<S-l>")
